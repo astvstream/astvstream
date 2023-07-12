@@ -1,0 +1,12 @@
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="urn:mpeg:dash:schema:mpd:2011"
+     xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+     type="static" mediaPresentationDuration="PT0H1M20.05S" minBufferTime="PT2S">
+    <Period id="0" start="PT0S">
+        <AdaptationSet>
+            <Representation mimeType="video/webm" codecs="vp09.00.40.08.00.02.02.02.00">
+                <BaseURL>https://etslive-2-vidio-com.akamaized.net/exp=1689141739~acl=/vp9/206_stream.mpd!/vp9/206/*!/vp9/*/206_stream.mpd!/vp9/*/206/*~hmac=6d9ae9ee482d22a6dac8d7ef173a9fb6e98697ef23094441051bad7532467e8c/vp9/206_stream.mpd</BaseURL>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>
